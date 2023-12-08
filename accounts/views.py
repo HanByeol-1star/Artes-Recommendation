@@ -6,7 +6,7 @@ from .forms import LoginForm
 from django.http.request import HttpRequest
 from joblib import load
 import pandas as pd
-import user_recomm
+from accounts import user_recomm
 import os
 
 def home(request):
